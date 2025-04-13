@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Sen", sans-serif;
+    color: aliceblue;
+    margin: 0 auto;
+    padding: 0 5%;
+    overflow-x: hidden;
+    background-size: cover;
+    background-color: rgb(8, 7, 18);
+}
+a {
+    text-decoration: none;
+}
+
+
+/* header */
+header {
+    padding: 1% 0;
+    margin-top: 1%;
+}
+.header-container{
+    display: flex;
+    max-width: 100vw;
+    margin: 0 auto;
+    /* padding: 0 5%; */
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.navigation a{
+    color: aliceblue;
+    font-weight: 400;
+    text-decoration: none;
+}
+.navigation a:last-child{
+    color: aliceblue;
+    padding: 1vw 2vw;
+    background-color: rgb(78, 11, 160);
+    /* border-radius: 0.5vw; */
+}
+.name a{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+
+/* introdaction */
+.introdaction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    align-items: center;
+}
+.intodaction-photo {
+    display: flex;
+}
+.intodaction-photo-img{
+    width: 35vw;
+    height: auto;
+    border-radius: 2%;
+}
+.intodaction-main_text h1{
+    font-size: 5.5vw;
+}
+.intodaction-main_text p{
+    margin-top: 1.5vw;
+    font-size: 1.2vw;
+}
+#based_in_Almaty{
+    color: rgb(72, 49, 102);
+}
+
+
