@@ -14,6 +14,10 @@ body{
 }
 a {
     text-decoration: none;
+    font-size: 1.2vw;
+}
+p{
+    font-size: 1.2vw;
 }
 
 
@@ -159,6 +163,9 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 5vw;
+    background: rgb(243, 230, 255);
+    box-shadow: 0 0 0 100vmax rgb(243, 230, 255);
+    clip-path: inset(0 -100vmax);
 }
 .about_me-photo {
     display: flex;
@@ -167,7 +174,7 @@ header {
 }
 .about_me-photo img{
     width: 100%;
-    border-radius: 0vw 1vw 1vw 0vw;
+    border-radius: 0vw 0vw 0vw 0vw;
 }
 .about_me-who_i_am{
     display: flex;
@@ -177,16 +184,42 @@ header {
     width: 50vw;
     gap: 3vw;
     /* background-color: rgb(51, 0, 102); */
-
     /* border: 10vw solid rgb(72, 49, 102); */
 }
 .about_me-who_i_am h2{
     font-size: 5vw;
     color: rgb(72, 49, 102)
 }
-.who_i_am_-text{
+.who_i_am-text{
     line-height: 1.5vw;
     font-size: 1.2vw;
+    color: rgb(72, 49, 102);
+}
+
+
+
+/* skillset */
+.skillset-main_text h2{
+    font-size: 5vw;
+    color: rgb(72, 49, 102)
+}
+.skillset{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.skillset-skills{
+    display: flex;
+    width: 50%;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.skill img{
+   width: 100%;
+   height: auto;
 }
 
 
