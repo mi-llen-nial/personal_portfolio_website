@@ -203,24 +203,72 @@ header {
     font-size: 5vw;
     color: rgb(72, 49, 102)
 }
+.skillset-main_text {
+   margin-top: 6vw;
+}
 .skillset{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    flex-direction: row;
 }
 .skillset-skills{
     display: flex;
-    width: 50%;
+    justify-content: start;
+    align-content: start;
+    flex-direction: row;
+    width: 60%;
+    gap: 5vw;
 }
 .skill{
     display: flex;
     flex-direction: column;
     align-items: start;
 }
+.skill-column_one{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 4vw;
+}
+.skill-column_two{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 4vw;
+}
 .skill img{
-   width: 100%;
+   width: 10%;
    height: auto;
 }
+.skill h2 {
+    font-size: 3vw;
+    margin-top: 2vw;
+}
+
+
+
+/* portfolio */
+.portfolio{
+    display: flex;
+}
+.portfolio-content{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.content {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.content img{
+    width: 100%;
+    height: auto;
+}
+
 
 
 
