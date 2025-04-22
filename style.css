@@ -253,28 +253,85 @@ header {
 /* portfolio */
 .portfolio{
     display: flex;
+    justify-content: space-between;
 }
 .portfolio-content{
     display: flex;
     align-items: start;
     justify-content: space-between;
+    flex-direction: column;
+    width: 70%;
 }
+.portfolio-main_text h2{
+    font-size: 5vw;
+    color: rgb(72, 49, 102)
+}
+
 .content {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
     width: 100%;
     height: auto;
+    margin-top: 5vw
 }
 .content img{
     width: 100%;
     height: auto;
+    border-radius: 4vw 4vw 0 0;
+}
+.content p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 3vw;
+    padding: 0 50%;
+    border: 0.2vw solid rgb(72, 49, 102);
+    border-radius: 0 0 25vw 25vw;
 }
 
 
 
-
 /* footer */
-.footer{
-    width: 100vw;
-    height: auto;
-    margin-top: 15vw;
+.footer {
+    background-color: rgb(20, 18, 32);
+    border-radius: 5vw 5vw 0 0;
+    color: aliceblue;
+    padding: 5vw 8% 5vw 5%;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+.footer-name h3 {
+    font-size: 2vw;
+    color: rgb(72, 49, 102);
+}
+.footer-name p {
+    font-size: 1.2vw;
+    color: rgb(240, 248, 255, .6);
+}
+.footer-links, .footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.footer-links a, .footer-social a {
+    color: aliceblue;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+.footer-links a:hover, .footer-social a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 3vw;
+    font-size: 1vw;
+    color: rgb(240, 248, 255, .4);
 }
