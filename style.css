@@ -280,10 +280,73 @@ header {
 
 
 
-
-
-
 /* my_project */
+.my_projects{
+    display: flex;
+    justify-content: space-between;
+    gap: 8vw;
+
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: start;
+    width: 100%;
+    gap: 3vw;
+    background-color: rgb(20, 18, 32);
+    border-radius: .5vw;
+    margin-top: 3vw;
+}
+.project h2{
+    padding-top: 0vw;
+    padding-left: 3vw;
+}
+.project p{
+    padding-bottom: 4vw;
+    padding-left: 3vw;
+}
+.project img{
+    width: 100%;
+}
+.my_projects-text{
+    width: 100%;
+}
+.my_projects-text h2{
+    font-size: 3vw;
+    color: aliceblue;
+}
+.my_projects-second_column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.my_projects-btn{
+    /* background-color: #4a90e2;       */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;                    
+    border: 2px solid rgb(72, 49, 102);   
+    padding: 1vw 4vw;
+    margin-top: 5vw;
+    font-size: 1vw;
+    font-weight: 600;
+    border-radius: 0vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2vw 4vw rgba(0, 0, 0, 0.15); 
+    letter-spacing: .5vw;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+  .my_projects-btn:hover {
+    background-color: rgb(233, 211, 255);        
+  }
+
 
 
 
@@ -292,8 +355,9 @@ header {
 
 /* footer */
 .footer {
+    margin-top: 5vw;
     background-color: rgb(20, 18, 32);
-    border-radius: 5vw 5vw 0 0;
+    border-radius: .5vw .5vw 0 0;
     color: aliceblue;
     padding: 5vw 8% 5vw 5%;
 }
