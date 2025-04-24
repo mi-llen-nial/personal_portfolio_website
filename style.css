@@ -13,7 +13,7 @@ body{
     background-color: rgb(8, 7, 18);
 }
 a {
-    text-decoration: none;
+    /* text-decoration: none; */
     font-size: 1.2vw;
 }
 p{
@@ -61,6 +61,7 @@ header {
     color: rgb(240, 248, 255);
     font-weight: 600;
     font-size: 1.5vw;
+    text-decoration: none;
 }
 
 
@@ -97,7 +98,7 @@ header {
 .line_dash{
     border: none;
     border-top: 2px dashed rgb(72, 49, 102);
-    margin: 5vw 0;
+    margin: 7vw 0;
 }
 
 
@@ -343,6 +344,9 @@ header {
     align-items: center;
     width: 70%;
 }
+.my_projects-btn a{
+    text-decoration: none;
+}
   .my_projects-btn:hover {
     background-color: rgb(233, 211, 255);        
   }
@@ -350,6 +354,181 @@ header {
 
 
 
+/* instagram */
+.instagram{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    background: rgb(243, 230, 255);
+    box-shadow: 0 0 0 100vmax rgb(243, 230, 255);
+    clip-path: inset(0 -100vmax);
+}
+.instagram-photo {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.instagram-photo img{
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    width: 100%;
+}
+.instagram-about_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50vw;
+    gap: 3vw;
+    /* background-color: rgb(51, 0, 102); */
+    /* border: 10vw solid rgb(72, 49, 102); */
+}
+.instagram-about_me h2{
+    font-size: 5vw;
+    color: rgb(72, 49, 102)
+}
+.about_me-text{
+    line-height: 1.5vw;
+    font-size: 1.2vw;
+    color: rgb(72, 49, 102);
+}
+
+
+
+/* dribbble */
+.dribbble{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    margin-top: 10vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+.dribbble-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.dribbble-text h2{
+    font-size: 5vw;
+    color: aliceblue;
+}
+.dribbble-text a{
+    margin-top: 2vw
+}
+.dribbble-photo{
+    display: flex;
+    width: 100%;
+}
+.dribbble-photo img{
+    border-radius: 1vw;
+    margin-top: 3vw;
+    width: 100%;
+}
+
+
+
+/* rewiews */
+.reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5vw;
+    margin-top: 10vw;
+}
+.reviews-first_column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1vw;
+    width: 50%;
+}
+.reviews-first_column a{
+    margin-top: 2vw;
+}
+.reviews-first_column h2{
+    font-size: 3vw;
+}
+.reviews-second_column{
+    display: flex;
+    align-content: start;
+    flex-direction: column;
+    gap: 5vw;
+    width: 50%;
+}
+.review {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    background-color: rgb(20, 18, 32);
+    width: 100%;
+}
+.name{
+    color: aliceblue;
+}
+.review img{
+    width: 100%;
+}
+.review p {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+
+
+/* photography */
+.photography{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    gap: 3vw;
+}
+.photography-text{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+}
+.photography-text h2{
+    font-size: 3vw;
+}
+.photography-text p{
+    margin-top: 1vw;
+}
+.button-group {
+    display: flex;
+    gap: 20px;
+}
+.photography-photo{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+
+}
+.button-group{
+    margin-top: 2vw;
+}
+.button {
+border: 2px solid #6A32F2;
+color: white;
+background: transparent;
+padding: 20px 30px;
+cursor: pointer;
+font-size: 16px;
+transition: all 0.3s ease;
+}
+.button.active {
+    background: #6A32F2;
+}
+.button:hover {
+    opacity: 0.8;
+}
+.button-group {
+    display: flex;
+    gap: 20px;
+}
 
 
 

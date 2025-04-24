@@ -170,17 +170,74 @@
 
         <div class="line_dash"></div>
 
-        <section class="about_me">
-            <div class="about_me-who_i_am">
+        <section class="instagram">
+            <div class="instagram-about_me">
                 <div class="who_i_am-title_text">
                     <h2>Instagram</h2>
                 </div>
-                <div class="who_i_am-text">
+                <div class="about_me-text">
                     <p>If you area a person who enjoys photography, then I highly recommend that you check out my Instagram. <br> I’m an avid traveller and I capture the best moments that I would love to cherish with the world.</p>
                 </div>
             </div>
-            <div class="about_me-photo">
+            <div class="instagram-photo">
                 <img src="../website_maket_Aktan/assets/images/inst_img.png" alt="">
+            </div>
+        </section>
+
+        <section class="dribbble">
+            <div class="dribbble-text">
+                <h2>Dribbble</h2>
+                <p>Each dribbble shot is made with love and care. Do check out my work on Dribbble. <br> Likes and comments are appreciated.</p>
+                <a href="">Follow me on Dribbble</a>
+            </div>
+            <div class="dribbble-photo">
+                <img src="../website_maket_Aktan/assets/images/dribbble_photo.webp" alt="">
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="reviews-first_column">
+                <h2>This is what people <br> say about me</h2>
+                <p>Here are a few lines from people who I have worked with over <br> the past 8+ years in my design career.</p>
+                <a href="">See all testimonials</a>
+            </div>
+            <div class="reviews-second_column">
+                <div class="review">
+                    <img src="../website_maket_Aktan/assets/images/rewiev/entrepreneur-593371_1280.jpg" alt="">
+                    <p>‘Aktan is one of the best designers I have worked with in my entire life. He is a designer who is very capable of taking up complex projects and delivers impeccable design.’</p>
+                    <p class="name"> Richard Owens <br> CEO, Company 1 </p>
+                </div>
+                <div class="review">
+                    <img src="../website_maket_Aktan/assets/images/rewiev/meeting-7366206_1280.jpg" alt="">
+                    <p>‘I think Robin has an incredible gift. It has been an absolute pleasure to work with a designer of this caliber.’’</p>
+                    <p class="name"> Emily Parker <br> CEO, Company 2 </p>
+                </div>
+                <div class="review">
+                    <img src="../website_maket_Aktan/assets/images/rewiev/office-1542590_1280.jpg" alt="">
+                    <p>‘All I can say that, Robin is a phenomenal designer. The wavelength at which he thinks is astoundaing. I love the focus, passion and attention to detial in the design.’</p>
+                    <p class="name"> Vincent  Rudd <br> CEO, Company 3 </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="line_dash"></div>
+
+        <section class="photography">
+            <div class="photography-text">
+                <h2>Photography</h2>
+                <p>Here is a collection of my best travel pictures that I took while <br> travelling places all around the world. </p>
+            </div>
+            <div class="button-group">
+                <button class="button active">ITALY</button>
+                <button class="button">AUSTRALIA</button>
+                <button class="button">INDIA</button>
+                <button class="button">BRAZIL</button>
+            </div>
+            <div class="photography-photo">
+                <img src="../website_maket_Aktan/assets/images/photography/Rectangle 47.png" alt="">
+                <img src="../website_maket_Aktan/assets/images/photography/Rectangle 48.png" alt="">
+                <img src="../website_maket_Aktan/assets/images/photography/Rectangle 49.png" alt="">
+                <img src="../website_maket_Aktan/assets/images/photography/Rectangle 50.png" alt="">
             </div>
         </section>
 
@@ -210,5 +267,20 @@
             </div>
         </div>
     </footer>
+
+
+
+    <script>
+        const buttons = document.querySelectorAll('.button');
+        buttons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            buttons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+          });
+        });
+      </script>
+
+
+
 </body>
 </html>
