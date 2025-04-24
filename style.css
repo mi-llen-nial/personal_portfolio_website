@@ -5,9 +5,9 @@
 }
 body{
     font-family: "Sen", sans-serif;
-    color: aliceblue;
+    color: gray;
     margin: 0 auto;
-    padding: 0 5%;
+    padding: 0 3%;
     overflow-x: hidden;
     background-size: cover;
     background-color: rgb(8, 7, 18);
@@ -18,6 +18,12 @@ a {
 }
 p{
     font-size: 1.2vw;
+}
+h2{
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
 }
 
 
@@ -201,7 +207,8 @@ header {
 /* skillset */
 .skillset-main_text h2{
     font-size: 5vw;
-    color: rgb(72, 49, 102)
+    color: aliceblue;
+    /* color: rgb(72, 49, 102) */
 }
 .skillset-main_text {
    margin-top: 6vw;
@@ -250,48 +257,36 @@ header {
 
 
 
-/* portfolio */
-.portfolio{
+/* company */
+.company{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
-.portfolio-content{
+.cmp{
     display: flex;
-    align-items: start;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 70%;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    border: 0.03vw solid rgba(128, 128, 128, 0.5);
 }
-.portfolio-main_text h2{
-    font-size: 5vw;
-    color: rgb(72, 49, 102)
+.cmp img{
+    width: 25%;
+    margin: 2vw 0vw;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    width: 100%;
-    height: auto;
-    margin-top: 5vw
-}
-.content img{
-    width: 100%;
-    height: auto;
-    border-radius: 4vw 4vw 0 0;
-}
-.content p{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 3vw;
-    padding: 0 50%;
-    border: 0.2vw solid rgb(72, 49, 102);
-    border-radius: 0 0 25vw 25vw;
-}
+
+
+
+
+
+
+/* my_project */
+
+
+
 
 
 
