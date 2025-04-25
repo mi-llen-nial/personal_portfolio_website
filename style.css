@@ -50,6 +50,21 @@ header {
     color: aliceblue;
     font-weight: 400;
     text-decoration: none;
+    transition: all .2s ease-in-out;
+    transform: scale(1);
+}
+.navigation a:hover{
+    transform: scale(1.1);
+    color: #6A32F2;
+}
+.name a{
+    color: aliceblue;
+    transition: all .2s ease-in-out;
+    transform: scale(1);
+}
+.name a:hover{
+    transform: scale(1.1);
+    color: #6A32F2;
 }
 .navigation a:last-child{
     color: aliceblue;
@@ -83,6 +98,14 @@ header {
 }
 .intodaction-main_text h1{
     font-size: 5.5vw;
+    transform: scale(1);
+    line-height: 100%;
+    transition: all .5s ease;
+}
+.intodaction-main_text h1:hover{
+    font-size: 5.5vw;
+    transform: scale(1.05);
+    line-height: 110%;
 }
 .intodaction-main_text p{
     margin-top: 1.5vw;
@@ -128,6 +151,14 @@ header {
     flex-direction: column;
     gap: 1.5vw;
     width: 33%;
+}
+.num{
+    transform: scale(1);
+    transition: all .2s ease-in-out;
+}
+.num:hover{
+    transform: scale(1.1);
+    color: #6A32F2;
 }
 .num{
     font-size: 6vw;
